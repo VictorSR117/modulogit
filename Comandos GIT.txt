@@ -1,0 +1,14 @@
+git Init      inicia um novo repositório
+git branch exemplo       cria uma nova branch
+git branch         mostra as branchs q vc tem
+git commit     mostra a situação atual dos seus projetos
+git log        mostra todos so comits feitos
+git commit -am "mensagem" adiciona os arquivos não commitados a sua devida branch e da uma descrição
+git add all/exemplo.css adiciona um ou todos os arquivos não commitados a sua branch
+git checkout teste      alterna entre as branchs
+git status       mostra a situação do seu branch (arquivos commitados ou não)
+git reset soft/mixed/hard 82660983eb0256a9071691801491eb14c3efefe4      alterna para uma versão anterior do seu branch pra rodar vc tem q colar o número do commit que vc quer executar, pode ser o número inteiro ou os 7 primeiros digitos
+git diff       mostra as alterações feitas no arquivo/arquivos  
+git diff --name-only      mostra os arquivos que foram alterados
+git diff exemplo.css      mostra as alterações feitas em um arquivo especifico
+git checkout  HEAD -- style.css      faz com que as alterações feitas no arquivo em especifico sejam ignoradas
