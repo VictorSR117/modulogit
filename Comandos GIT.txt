@@ -13,6 +13,7 @@ git diff --name-only      mostra os arquivos que foram alterados
 git diff exemplo.css      mostra as alterações feitas em um arquivo especifico
 git checkout  HEAD -- style.css      faz com que as alterações feitas no arquivo em especifico sejam ignoradas
 git add -A      adiciona arquivos
+git reset --no-edit 3c2de69a3e4f1d08e44c3748395138a00798e841    desfaz um commit e permite ou não a deição do mesmo
 
 passo a passo para subir o repósitório local para o remoto:
 1° vez
