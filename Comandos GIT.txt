@@ -12,3 +12,20 @@ git diff       mostra as alterações feitas no arquivo/arquivos
 git diff --name-only      mostra os arquivos que foram alterados
 git diff exemplo.css      mostra as alterações feitas em um arquivo especifico
 git checkout  HEAD -- style.css      faz com que as alterações feitas no arquivo em especifico sejam ignoradas
+git add -A      adiciona arquivos
+
+passo a passo para subir o repósitório local para o remoto:
+1° vez
+git init
+git add README.md
+git add ./*se não tiver arquivos novos ele vai sozinho*/
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:VictorSR117/modulogit.git
+git push -u origin main
+
+2° vez em diante:
+git add . ou git add exempplo.css
+git commit -m "lknmfoing"
+git push -u origin main
+
